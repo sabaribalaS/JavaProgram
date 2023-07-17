@@ -1,0 +1,20 @@
+package payilagam;
+
+public class Implementation {
+	Functional_Interface_Demo fid =  () ->
+    {
+    System.out.println("Hi"); 
+    };
+Functional_Interface_Demo fid =  () ->
+    {
+    System.out.println("Hi"); 
+    };
+    fid.add();
+Functional_Interface_Demo fid =  (a,b) ->
+    {
+    System.out.println(a+b); 
+    };
+    int a = 10, b = 20; 
+    fid.add(a,b);
+
+}

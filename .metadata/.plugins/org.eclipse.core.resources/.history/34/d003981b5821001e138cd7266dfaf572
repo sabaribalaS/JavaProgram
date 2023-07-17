@@ -1,0 +1,39 @@
+package looping_practice;
+
+import java.util.Scanner;
+
+public class Neon_number {
+//	9 9square = 81  =8+1=9 neon;
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Neon_number lp = new Neon_number();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter no to be check neon");
+		int a = sc.nextInt();
+		int power=lp.power(a);
+//		System.out.println(power);
+		int sum=0;
+		int rem =0;
+		boolean b=true;
+		while(b) {
+			
+			int digit =power%10;//81 = 1 
+			 rem =power/10;//81  = 8 
+			 sum = sum+digit;// 
+		if(rem==0) {
+			b=false;
+		}
+		}
+		System.out.println(sum+"  is a neon no");
+}
+
+	private int power(int a) {
+		// TODO Auto-generated method stub
+		int base=a;
+		int power =base*base;
+		return power;
+		
+	}
+
+}

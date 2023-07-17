@@ -1,0 +1,21 @@
+package hacker_rank;
+
+import java.util.Scanner;
+
+public class String_rank1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner in = new Scanner(System.in);
+	        String S = in.next();
+	        System.out.println("enter text");
+	        int start = in.nextInt();
+	        System.out.println("enter start index");
+	        int end = in.nextInt();
+	        System.out.println("end text");
+	        String charat = S.substring(start, end);
+	        System.out.println(charat);
+	}
+	
+	
+}

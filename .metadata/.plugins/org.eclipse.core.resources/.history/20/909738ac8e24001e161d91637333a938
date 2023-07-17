@@ -1,0 +1,12 @@
+package multi_threads;
+
+
+public class ThreadDemo {
+public static void main(String[] args) {
+	ThreadChild tc = new ThreadChild();
+	tc.start();
+	for(int no=1;no<=5;no++) {
+		System.out.println("ThreadDemo "+no);
+	}
+}
+}

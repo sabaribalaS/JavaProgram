@@ -1,0 +1,9 @@
+package multi_threads;
+
+public class ThreadChild {
+public void run() {
+	for(int no=1;no<=5;no++) {
+		System.out.println("ThreadChild "+no);
+	}
+}
+}

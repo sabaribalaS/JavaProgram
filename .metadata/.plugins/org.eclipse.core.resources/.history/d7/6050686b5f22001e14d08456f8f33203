@@ -1,0 +1,17 @@
+package looping_practice;
+
+public class Exception_handling {
+	 public static void main(String[] args) {
+	        int no1= 10;
+	        int no2 = 0;
+	        try {
+	            int result = no1/no2; // Potential division by zero
+	            System.out.println("Result: " + result);
+	        } catch (ArithmeticException e) {
+	            System.out.println("Massage of exception: " + e.getMessage());
+	        }
+	    }
+	}
+
+
+

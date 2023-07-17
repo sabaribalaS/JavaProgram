@@ -1,0 +1,23 @@
+package javaarraylist;
+
+public class Mobiles {
+
+	 public Mobile (int price, int ram, float screensize, String brand)
+	  {
+	      super();
+	      this.price = price;
+	      this.ram = ram;
+	      this.screensize = screensize;
+	      this.brand = brand;
+	    }
+	    int price, ram; 
+	    float screensize; 
+	    String brand;
+	    
+	    public String toString()
+        {
+          return this.brand;
+        }
+	    
+
+	}

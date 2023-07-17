@@ -1,0 +1,50 @@
+package calm.learning;
+
+public class Own {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Own o = new Own();
+//		o.star1();
+		o.star2();
+
+	}
+
+	private void star2() {
+		// TODO Auto-generated method stub
+//		1 2 3 4 5 
+//		1 2 3 4 
+		for(int num=1;num<2;num++)
+		{
+		for(int no=1;no<num;no++)
+		{
+			System.out.print(no+" ");
+			
+		} 
+		{
+		System.out.println();
+		}
+	}
+		
+		
+	}
+
+	private void star1() {
+		// TODO Auto-generated method stub
+//		1 2 3 4 5 
+//		1 2 3 4 5
+		for(int num=1;num<=2;num++)
+		{
+		for(int no =1;no<=5;no++) 
+		{
+			System.out.print(no+" ");
+		}
+		
+		{
+			System.out.println();
+		}
+		}
+		}
+		
+	}
+

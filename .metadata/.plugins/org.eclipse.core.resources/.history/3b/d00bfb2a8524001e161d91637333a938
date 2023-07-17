@@ -1,0 +1,5 @@
+package payilagam;
+
+public interface Functional_Interface_Demo {
+
+}

@@ -1,0 +1,29 @@
+package looping_practice;
+
+import java.util.Scanner;
+
+public class Armstrong_no {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		1643 =4
+//		1 6 4 3 
+//		1 power4 +6 power4=1643//
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		int count=digits_count_(i);
+System.out.println(count);
+	}
+
+	private static int digits_count_(int i) {
+		// TODO Auto-generated method stub
+		int count=0;
+		int no =i;
+		while(no>0) {
+			no=no/10;
+			count++;
+			}
+		return count;
+	}
+
+}

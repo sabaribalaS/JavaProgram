@@ -1,0 +1,19 @@
+package multi_threads;
+
+
+public class ThreadDemo {
+public static void main(String[] args) {
+	ThreadChild tc = new ThreadChild();
+	System.out.println(tc.getId()); 
+    System.out.println(tc.getName()); 
+    System.out.println(tc.getPriority());
+    System.out.println(tc.isDaemon());
+    System.out.println(tc.isAlive());
+	tc.start();
+	ThreadChild tc2 = new ThreadChild();
+	tc2.start();
+	for(int no=1;no<=5;no++) {
+		System.out.println("ThreadDemo "+no);
+	}
+}
+}

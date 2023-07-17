@@ -1,0 +1,10 @@
+package looping_practice;
+
+public class Armstrong_no {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

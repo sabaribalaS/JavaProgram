@@ -1,0 +1,23 @@
+package looping_practice;
+
+public class Looping_prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Looping_prac pr = new Looping_prac();
+		pr.print1();
+		
+
+	}
+
+	private void print1() {
+		// TODO Auto-generated method stub
+//		output:1  1   1   1   1
+		for(int i=1;i<=5;i++) {
+			System.out.println(1);
+		}
+		
+		
+	}
+
+}

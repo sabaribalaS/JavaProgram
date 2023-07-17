@@ -1,0 +1,29 @@
+package looping_practice;
+
+public class Frequency_of {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String i="sabaribala";//s a b -1
+		int[] ss=new int [i.length()];
+		for(int j=0;j<i.length();j++) {
+			int count=1;
+			char c= i.charAt(j);
+			for(int k=j+1;k<i.length();k++) {
+				if(c==i.charAt(k)) {
+					ss[j]=-1;//s 0 a
+					count=count+1;
+				}
+				}
+			if(ss[j]>0){
+				ss[j]=count;// s 0 a
+			}
+			if(ss[j]>0) {
+				System.out.println(c+"no of count"+ss[j]);
+			}
+
+	}
+	}}
+
+
